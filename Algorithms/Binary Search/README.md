@@ -6,6 +6,7 @@ Binary Search is a fundamental searching algorithm used to efficiently find the 
 ## Usage
 Here is an example of how to use the `BinarySearch` class and its `Search` method:
 
+```code
 int[] sortedNumbers = { 1, 3, 5, 7, 9, 11, 13 };
 int target = 7;
 int index = BinarySearch.Search(sortedNumbers, target);
@@ -18,6 +19,7 @@ else
 {
     Console.WriteLine($"Target {target} not found in the array.");
 }
+```
 
 ## Explanation
 The `Search` method implements the binary search algorithm:
